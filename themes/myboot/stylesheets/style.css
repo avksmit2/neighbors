@@ -5779,15 +5779,24 @@ tbody.collapse.in {
 
 /* line 163, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
-  float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
-  height: 50px;
+  position: inherit;
+  margin-left: 15px;
+  color: blue;
+}
+
+.navbar-text {
+  display:block;
+  position: inherit;
+  width: 800px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-left: 300px;
+  color: blue;
 }
 /* line 170, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
+  text-decoration: underline;
+  cursor: pointer;
 }
 /* line 175, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand > img {
@@ -5836,15 +5845,15 @@ tbody.collapse.in {
 }
 
 /* line 232, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-nav {
+/*.navbar-nav {
   margin: 7.5px -15px;
-}
+}*/
 /* line 235, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-nav > li > a {
+/*.navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
   line-height: 20px;
-}
+}*/
 @media (max-width: 767px) {
   /* line 243, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu {
@@ -5859,11 +5868,11 @@ tbody.collapse.in {
   /* line 251, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a,
   .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
+    /*padding: 5px 15px 5px 25px;*/
   }
   /* line 255, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
+    line-height: 0px;
   }
   /* line 257, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5873,7 +5882,7 @@ tbody.collapse.in {
 @media (min-width: 768px) {
   /* line 232, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav {
-    float: left;
+    float: right;
     margin: 0;
   }
   /* line 270, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5883,7 +5892,7 @@ tbody.collapse.in {
   /* line 272, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
   }
 }
 
@@ -6017,18 +6026,6 @@ tbody.collapse.in {
 }
 
 /* line 359, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
-.navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-@media (min-width: 768px) {
-  /* line 359, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
-  .navbar-text {
-    float: left;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-}
 
 @media (min-width: 768px) {
   /* line 379, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
@@ -6053,24 +6050,24 @@ tbody.collapse.in {
 }
 /* line 401, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand {
-  color: #777;
+  color: blue;
 }
 /* line 403, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-  background-color: transparent;
+  color: blue;
+  background-color: yellow;
 }
 /* line 410, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-text {
-  color: #777;
+  color: blue;
 }
 /* line 415, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a {
-  color: #777;
+  color: blue;
 }
 /* line 418, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
+  color: blue;
   background-color: transparent;
 }
 /* line 425, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
