@@ -2128,10 +2128,17 @@ a.bg-danger:focus {
   background-color: #e4b9b9;
 }
 
+.region-header {
+  width: 125%;
+  padding-bottom: 10%;
+  background-image: url('/images/open-houseimage.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 /* line 138, ../bootstrap/assets/stylesheets/bootstrap/_type.scss */
 .page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 40px 0 0px;
   border-bottom: 1px solid #eeeeee;
 }
 
