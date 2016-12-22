@@ -12,13 +12,7 @@ body {
   margin-left: 0px;
 }
 
-.navbar-text {
-  display: block;
-  position: inherit;
-  width: 800px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-  margin-left: 300px;
+#slogan {
   color: blue;
 }
 
@@ -30,6 +24,14 @@ body {
 .navbar-nav {
   float: right;
   margin: 0;
+}
+
+#block-myboot-main-menu ul {
+  font-size: 2vh;
+}
+
+#navbar {
+  background-color: #00b300;
 }
 
 .region-header {

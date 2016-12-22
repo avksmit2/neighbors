@@ -15,29 +15,33 @@ body {
 }
 
 /* line 15, ../sass/mystyle.scss */
-.navbar-text {
-  display: block;
-  position: inherit;
-  width: 800px;
-  margin-top: 15px;
-  margin-bottom: 0px;
-  margin-left: 300px;
+#slogan {
   color: blue;
 }
 
-/* line 25, ../sass/mystyle.scss */
+/* line 19, ../sass/mystyle.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* line 30, ../sass/mystyle.scss */
+/* line 24, ../sass/mystyle.scss */
 .navbar-nav {
   float: right;
   margin: 0;
 }
 
-/* line 35, ../sass/mystyle.scss */
+/* line 29, ../sass/mystyle.scss */
+#block-myboot-main-menu ul {
+  font-size: 2vh;
+}
+
+/* line 33, ../sass/mystyle.scss */
+#navbar {
+  background-color: #00b300;
+}
+
+/* line 37, ../sass/mystyle.scss */
 .region-header {
   width: 125%;
   padding-bottom: 10%;
@@ -46,7 +50,7 @@ body {
   background-position: center;
 }
 
-/* line 43, ../sass/mystyle.scss */
+/* line 45, ../sass/mystyle.scss */
 .field--item img {
   padding: 3%;
 }
