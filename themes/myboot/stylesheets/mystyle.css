@@ -59,3 +59,7 @@ body {
 .field--item img {
   padding: 3%;
 }
+
+#block-views-block-helpful-articles-block-1 > div.form-group > div {
+  font-size: 1.5vh;
+}
