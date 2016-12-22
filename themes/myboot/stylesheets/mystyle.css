@@ -33,7 +33,7 @@ body {
 
 /* line 29, ../sass/mystyle.scss */
 #block-myboot-main-menu ul {
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
 /* line 33, ../sass/mystyle.scss */
@@ -48,6 +48,11 @@ body {
   background-image: url("/images/open-houseimage.gif");
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.region-highlighted {
+  margin-top: 10px;
+  height: 60px;
 }
 
 /* line 45, ../sass/mystyle.scss */
