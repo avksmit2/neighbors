@@ -1,4 +1,5 @@
 /* line 1, ../sass/mystyle.scss */
+/* line 2, ../sass/mystyle.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -8,6 +9,7 @@ body {
 }
 
 /* line 9, ../sass/mystyle.scss */
+/* line 11, ../sass/mystyle.scss */
 .navbar-brand {
   position: inherit;
   color: blue;
@@ -15,33 +17,39 @@ body {
 }
 
 /* line 15, ../sass/mystyle.scss */
+/* line 18, ../sass/mystyle.scss */
 #slogan {
   color: blue;
 }
 
 /* line 19, ../sass/mystyle.scss */
+/* line 23, ../sass/mystyle.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: underline;
   cursor: pointer;
 }
 
 /* line 24, ../sass/mystyle.scss */
+/* line 29, ../sass/mystyle.scss */
 .navbar-nav {
   float: right;
   margin: 0;
 }
 
 /* line 29, ../sass/mystyle.scss */
+/* line 35, ../sass/mystyle.scss */
 #block-myboot-main-menu ul {
   font-size: 1.5vh;
 }
 
 /* line 33, ../sass/mystyle.scss */
+/* line 40, ../sass/mystyle.scss */
 #navbar {
   background-color: #00b300;
 }
 
 /* line 37, ../sass/mystyle.scss */
+/* line 45, ../sass/mystyle.scss */
 .region-header {
   width: 125%;
   padding-bottom: 10%;
@@ -50,16 +58,24 @@ body {
   background-position: center;
 }
 
+/* line 53, ../sass/mystyle.scss */
 .region-highlighted {
   margin-top: 10px;
   height: 60px;
 }
 
 /* line 45, ../sass/mystyle.scss */
+/* line 59, ../sass/mystyle.scss */
 .field--item img {
   padding: 3%;
 }
 
+/* line 63, ../sass/mystyle.scss */
 #block-views-block-helpful-articles-block-1 > div.form-group > div {
   font-size: 1.5vh;
+}
+
+/* line 67, ../sass/mystyle.scss */
+.field-content img {
+  padding: 3%;
 }

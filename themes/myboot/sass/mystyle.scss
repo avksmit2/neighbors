@@ -1,3 +1,4 @@
+/* line 1, ../sass/mystyle.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -6,42 +7,63 @@ body {
   background-color: #84e184;
 }
 
+/* line 9, ../sass/mystyle.scss */
 .navbar-brand {
   position: inherit;
   color: blue;
   margin-left: 0px;
 }
 
+/* line 15, ../sass/mystyle.scss */
 #slogan {
   color: blue;
 }
 
+/* line 19, ../sass/mystyle.scss */
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: underline;
   cursor: pointer;
 }
 
+/* line 24, ../sass/mystyle.scss */
 .navbar-nav {
   float: right;
   margin: 0;
 }
 
+/* line 29, ../sass/mystyle.scss */
 #block-myboot-main-menu ul {
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
+/* line 33, ../sass/mystyle.scss */
 #navbar {
   background-color: #00b300;
 }
 
+/* line 37, ../sass/mystyle.scss */
 .region-header {
   width: 125%;
   padding-bottom: 10%;
-  background-image: url('/images/open-houseimage.gif');
+  background-image: url("/images/open-houseimage.gif");
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.region-highlighted {
+  margin-top: 10px;
+  height: 60px;
+}
+
+/* line 45, ../sass/mystyle.scss */
 .field--item img {
+  padding: 3%;
+}
+
+#block-views-block-helpful-articles-block-1 > div.form-group > div {
+  font-size: 1.5vh;
+}
+
+.field-content img {
   padding: 3%;
 }
