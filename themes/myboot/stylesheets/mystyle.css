@@ -2,7 +2,7 @@
 /* line 2, ../sass/mystyle.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   line-height: 1.42857;
   color: #333333;
   background-color: #84e184;
@@ -39,7 +39,7 @@ body {
 /* line 29, ../sass/mystyle.scss */
 /* line 35, ../sass/mystyle.scss */
 #block-myboot-main-menu ul {
-  font-size: 1.5vh;
+  font-size: 1em;
 }
 
 /* line 40, ../sass/mystyle.scss */
@@ -66,18 +66,17 @@ body {
 /* line 59, ../sass/mystyle.scss */
 .region-highlighted {
   margin-top: 10px;
-  height: 60px;
+  height: 10%;
+}
+
+.region-highlighted h1 {
+  font-size: 3em;
 }
 
 /* line 45, ../sass/mystyle.scss */
 /* line 65, ../sass/mystyle.scss */
 .field--item img {
   padding: 3%;
-}
-
-/* line 69, ../sass/mystyle.scss */
-#block-views-block-helpful-articles-block-1 > div.form-group > div {
-  font-size: 1.5vh;
 }
 
 /* line 73, ../sass/mystyle.scss */
